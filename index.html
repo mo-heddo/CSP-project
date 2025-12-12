@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Timetable Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Timetable CSP Solver Interface</h1>
+
+        <div class="card file-upload-area">
+            <h2>1. Upload Data Files</h2>
+            <p>Please upload all required CSV files from your data folder.</p>
+            <div id="file-inputs" class="input-grid">
+                </div>
+            <div class="action-buttons">
+                <button id="run-solver-btn" onclick="simulateSolverRun()">🚀 Run Solver</button>
+                <button id="clear-log-btn" onclick="clearLog()">🗑️ Clear Log</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>2. Solver Log <span id="status-display" class="status-idle">(Idle)</span></h2>
+            <div id="log-output" class="log-area">Log initialized. Waiting for files...</div>
+        </div>
+
+        <div class="card">
+            <h2>3. Timetable Results (timetable_solution.csv)</h2>
+            <table id="results-table" class="display" style="width:100%">
+                <thead>
+                    </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>

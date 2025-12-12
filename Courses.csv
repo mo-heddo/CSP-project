@@ -1,0 +1,91 @@
+CourseID,CourseName,Credits,Type,HasLecture,HasLab,HasLongTut,HasShortTut
+LRA401,Japanese Language (1),1,Lecture,1,0,0,0
+LRA402,Japanese Language (2),1,Lecture,1,0,0,0
+LRA403,Japanese Language (3),1,Lecture,1,0,0,0
+LRA404,Japanese Language (4),1,Lecture,1,0,0,0
+LRA405,Key Skills Seminar (1),2,Lecture,1,0,0,0
+LRA101,Japanese Culture,2,Lecture,1,0,0,0
+LRA208,Safety and Risk Management,2,Lecture,1,0,0,0
+LRA102,Introduction to Philosophy,2,Lecture,1,0,0,0
+LRA103,Fine Arts Appreciation-Drawing and Paintings,2,Lecture,1,0,0,0
+LRA104,Music and Technology,2,Lecture,1,0,0,0
+LRA105,Theater and Drama,2,Lecture,1,0,0,0
+LRA106,Physical Education,2,Lecture,1,0,0,0
+LRA107,Selected topics in Japanese arts,2,Lecture,1,0,0,0
+LRA108,Art and Architecture of Ancient Egypt,2,Lecture,1,0,0,0
+LRA109,Introduction to Cultural Anthropology,2,Lecture,1,0,0,0
+LRA110,Modern Egyptian History,2,Lecture,1,0,0,0
+LRA202,Peace studies,2,Lecture,1,0,0,0
+LRA203,Entrepreneurship and Innovation,2,Lecture,1,0,0,0
+LRA204,Public Policy,2,Lecture,1,0,0,0
+LRA205,Egyptian Business Regulations,2,Lecture,1,0,0,0
+LRA206,Sociology of work,2,Lecture,1,0,0,0
+LRA207,African and Middle Eastern studies,2,Lecture,1,0,0,0
+LRA201,Introduction to Economics and Sustainable Development,2,Lecture,1,0,0,0
+CSC316,Understanding Computers,2,Lecture,1,0,0,0
+LRA302,Introduction to Life Sciences,2,Lecture,1,0,0,0
+LRA303,Introduction to Environmental Biology,2,Lecture,1,0,0,0
+LRA304,Water and Politics in Africa and Middle East,2,Lecture,1,0,0,0
+LRA305,Astronomy,2,Lecture,1,0,0,0
+LRA306,Natural Resources and Sustainability,2,Lecture,1,0,0,0
+LRA406,Key Skills Seminar (2),2,Lecture,1,0,0,0
+LRA407,English Language,2,Lecture,1,0,0,0
+LRA408,Arabic Language,2,Lecture,1,0,0,0
+LRA409,Research Methods,2,Lecture,1,0,0,0
+LRA410,Fundamentals of Communication,2,Lecture,1,0,0,0
+LRA411,Transformational Leadership,2,Lecture,1,0,0,0
+MTH111,Mathematics (1) (Calculus + Linear Algebra),3,Lecture and Long_Tutorial,1,0,1,0
+MTH121,Mathematics (2) (Calculus + Linear Algebra),3,Lecture and Long_Tutorial,1,0,1,0
+CSE312,Discrete Mathematics,3,Lecture and Lab,1,1,0,0
+MTH212,Probability and Statistics,3,Lecture and Long_Tutorial,1,0,1,0
+PHY113,Physics 1,3,Lecture and Lab and Short_Tutorial,1,1,0,1
+PHY123,Physics 2,3,Lecture and Lab and Short_Tutorial,1,1,0,1
+BIO111,Fundamentals of life Science,3,Lecture and Lab,1,1,0,0
+ACM215,Ordinary Differential Equations,3,Lecture and Long_Tutorial,1,0,1,0
+ACM323,Applied Numerical Methods,3,Lecture and Long_Tutorial,1,0,1,0
+ACM422,Operations Research,3,Lecture and Lab,1,1,0,0
+CHM113,Chemistry (1),3,Lecture and Lab,1,1,0,0
+ECE223,Signal and Systems,3,Lecture and Lab,1,1,0,0
+AID323,Parallel & Distributed Computing,3,Lecture and Lab,1,1,0,0
+AID311,Mathematics of Data Science,3,Lecture and Lab,1,1,0,0
+AID321,Machine Learning,3,Lecture and Lab,1,1,0,0
+AID411,BIG Data Analytics & Visualization,3,Lecture and Lab,1,1,0,0
+AID412,Introduction to Neural network,3,Lecture and Lab,1,1,0,0
+AID421,Computer Vision,3,Lecture and Lab,1,1,0,0
+AID322,Data Mining,3,Lecture and Lab,1,1,0,0
+AID422,Natural Language Processing,3,Lecture and Lab,1,1,0,0
+AID324,Image Processing,3,Lecture and Lab,1,1,0,0
+AID413,Data Security,3,Lecture and Lab,1,1,0,0
+AID416,Reinforcement Learning,3,Lecture and Lab,1,1,0,0
+AID426,Robotics,3,Lecture and Lab,1,1,0,0
+AID328,Game Theory,3,Lecture and Lab,1,1,0,0
+AID427,New Trends in Data Science,3,Lecture and Lab,1,1,0,0
+AID428,New Trends in AI,3,Lecture and Lab,1,1,0,0
+AID326,Data Science in Business,3,Lecture and Lab,1,1,0,0
+AID417,Advanced Data Mining,3,Lecture and Lab,1,1,0,0
+AID327,Human Computer Interface,3,Lecture and Lab,1,1,0,0
+AID425,AI in Bio-Computing,3,Lecture and Lab,1,1,0,0
+AID325,BlockChain & Distributed Ledgers,3,Lecture and Lab,1,1,0,0
+AID414,Graduation Project (1),2,Lab,0,1,0,0
+AID424,Graduation Project (2),4,Lab,0,1,0,0
+AID423,Field Training (2 Modules),5,Lab,0,1,0,0
+CSC111,Fundamentals of Programming,3,Lecture and Lab,1,1,0,0
+CSC121,Data Structures and Algorithms,3,Lecture and Lab,1,1,0,0
+CSC122,Advanced Programming,3,Lecture and Lab,1,1,0,0
+CSC211,Software Engineering,3,Lecture and Lab,1,1,0,0
+CSC221,Operating Systems,3,Lecture and Lab,1,1,0,0
+AID312,Intelligent Systems,3,Lecture and Lab,1,1,0,0
+CNC311,Computer Networks,3,Lecture and Lab,1,1,0,0
+CNC314,Database Systems,3,Lecture and Lab,1,1,0,0
+ECE111,Digital Logic Design,3,Lecture and Lab Short_Tutorial,1,1,0,1
+CSE214,Computer Organization,3,Lecture and Lab and Short_Tutorial,1,1,0,1
+CSC112,Project Management,3,Lecture and Lab,1,1,0,0
+CNC111,Networks and Web Programming,3,Lecture and Lab,1,1,0,0
+CSC113,Compiler Design,3,Lecture and Lab,1,1,0,0
+CSC114,Algorithms Analysis and Design,3,Lecture and Lab,1,1,0,0
+CSE423,Computer Graphics and Visualization,3,Lecture and Lab,1,1,0,0
+AID111,Data Science,3,Lecture and Lab,1,1,0,0
+ECE214,Digital Signal Processing,3,Lecture and Lab,1,1,0,0
+ECE213,Introduction to Electronics Engineering,3,Lecture and Lab,1,1,0,0
+CNC222,Introduction to Embedded Systems,3,Lecture and Lab,1,1,0,0
+AID221,Introduction to Artificial Intelligence,3,Lecture and Lab,1,1,0,0

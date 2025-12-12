@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Card/Section Styling */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* File Upload and Buttons */
+.file-upload-area {
+    background-color: #eaf4ff;
+}
+
+.input-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.action-buttons {
+    text-align: right;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-left: 10px;
+}
+
+#run-solver-btn {
+    background-color: #28a745;
+    color: white;
+}
+#run-solver-btn:hover {
+    background-color: #218838;
+}
+
+/* Log Area Styling */
+.log-area {
+    min-height: 150px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #343a40; /* Dark background for console look */
+    color: #e9ecef; /* Light text */
+    font-family: monospace;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* Status Colors (Matching Python Logger) */
+.log-line.info { color: #28a745; }    /* dark green */
+.log-line.warn { color: #ffc107; }    /* goldenrod/yellow */
+.log-line.error { color: #dc3545; }   /* firebrick/red */
+.log-line.ok { color: #17a2b8; font-weight: bold; } /* bright cyan */
+
+#status-display {
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.status-idle { background-color: #6c757d; color: white; }
+.status-running { background-color: #ffc107; color: #343a40; }
+.status-done { background-color: #28a745; color: white; }
+.status-error { background-color: #dc3545; color: white; }
+
+/* DataTables Styling Overrides (for 'catchy' display) */
+#results-table {
+    border: 1px solid #eee;
+}
+
+#results-table thead th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Custom Row Coloring (Simulating Python tags) */
+/* The DataTables rowCallback function handles this in JS */
+.dt-row-big { background-color: #ffdddd !important; } /* light red */
+.dt-row-warn { background-color: #fff8e1 !important; } /* light yellow */
+.dt-row-ok { background-color: #ddffdd !important; }  /* light green */
